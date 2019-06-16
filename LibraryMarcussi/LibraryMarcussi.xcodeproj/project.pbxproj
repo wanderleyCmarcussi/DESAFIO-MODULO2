@@ -15,6 +15,8 @@
 		0B76FD5722AF3DA700EA240E /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B76FD5622AF3DA700EA240E /* Book.swift */; };
 		0B76FD5922AF442200EA240E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B76FD5822AF442200EA240E /* Category.swift */; };
 		0B76FD5C22AF477000EA240E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B76FD5B22AF477000EA240E /* WelcomeViewController.swift */; };
+		0BEB849422B6860E0035A5F2 /* Utilitarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEB849322B6860E0035A5F2 /* Utilitarios.swift */; };
+		0BEB849622B692CF0035A5F2 /* TabelaLivrosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEB849522B692CF0035A5F2 /* TabelaLivrosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		0B76FD5622AF3DA700EA240E /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		0B76FD5822AF442200EA240E /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		0B76FD5B22AF477000EA240E /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		0BEB849322B6860E0035A5F2 /* Utilitarios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilitarios.swift; sourceTree = "<group>"; };
+		0BEB849522B692CF0035A5F2 /* TabelaLivrosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabelaLivrosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 		0B76FD5522AF3D7200EA240E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0BEB849322B6860E0035A5F2 /* Utilitarios.swift */,
 				0B76FD5622AF3DA700EA240E /* Book.swift */,
 				0B76FD5822AF442200EA240E /* Category.swift */,
 			);
@@ -85,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				0B76FD5B22AF477000EA240E /* WelcomeViewController.swift */,
+				0BEB849522B692CF0035A5F2 /* TabelaLivrosViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -161,7 +167,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B76FD4622AF3D4500EA240E /* ViewController.swift in Sources */,
+				0BEB849422B6860E0035A5F2 /* Utilitarios.swift in Sources */,
 				0B76FD5C22AF477000EA240E /* WelcomeViewController.swift in Sources */,
+				0BEB849622B692CF0035A5F2 /* TabelaLivrosViewController.swift in Sources */,
 				0B76FD4422AF3D4500EA240E /* AppDelegate.swift in Sources */,
 				0B76FD5722AF3DA700EA240E /* Book.swift in Sources */,
 				0B76FD5922AF442200EA240E /* Category.swift in Sources */,
