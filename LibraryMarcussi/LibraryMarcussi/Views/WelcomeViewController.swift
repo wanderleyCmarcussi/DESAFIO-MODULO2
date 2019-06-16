@@ -45,6 +45,13 @@ class WelcomeViewController: UIViewController {
        
         preenchido =  self.loginNomeTextField.text ?? ""
         
+        if preenchido == ""{
+            print("Não temos nome preenchido")
+            
+            self.loginNomeTextField.text = "Não temos nome preenchido"
+            return
+        }
+        
         if let _preenchido = Utilitarios.pegarObjetoString(key: "nomeUsuarioLibrary") {
             
             self.fazerLogin(senha: _preenchido)
