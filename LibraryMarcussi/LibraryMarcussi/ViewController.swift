@@ -42,7 +42,7 @@ import UIKit
     extension ViewController: LivrosControllerDelegate {
         
         func success() {
-   //         self.livroTableView.dataSource = self
+            self.livroTableView.dataSource = self
         }
         
         func failed() {

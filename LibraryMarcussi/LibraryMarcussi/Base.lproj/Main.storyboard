@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hxh-n1-55p">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ugo-TU-gry">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -63,6 +63,7 @@
                     <navigationItem key="navigationItem" id="cVI-Ho-eM1"/>
                     <connections>
                         <outlet property="loginNomeTextField" destination="v9O-OQ-OyE" id="vV3-te-Fw9"/>
+                        <segue destination="hxh-n1-55p" kind="show" identifier="TabelaLivrosViewController" id="ndw-OV-MNA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9BZ-5g-MaJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -82,7 +83,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1205.7971014492755" y="119.86607142857142"/>
+            <point key="canvasLocation" x="2599" y="110"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Bvo-m6-hCJ">
@@ -93,7 +94,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1O5-fP-ZfV">
-                                <rect key="frame" x="20" y="64" width="374" height="778"/>
+                                <rect key="frame" x="20" y="108" width="374" height="734"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" textLabel="ZL0-Er-30Y" detailTextLabel="XyU-FI-Sah" style="IBUITableViewCellStyleSubtitle" id="YdS-B5-goc">
@@ -132,10 +133,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="BeH-NU-1w8"/>
                     </view>
+                    <connections>
+                        <outlet property="livroTableView" destination="1O5-fP-ZfV" id="mRR-qJ-0yg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SC0-EB-ABz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1854" y="111"/>
+            <point key="canvasLocation" x="1372" y="131"/>
         </scene>
         <!--Marcussi's Library-->
         <scene sceneID="E2S-H4-zm7">
