@@ -28,12 +28,12 @@ class MostraLivrosViewController: UIViewController {
         super.viewDidLoad()
         
         // limpa todas as labels
-        self.tituloLabel.text = ""
-        self.categoriaLabel.text = ""
-        self.autorLabel.text = ""
-        self.isbnLabel.text = ""
-        self.idiomaLabel.text = ""
-        self.precoLabel.text = ""
+        self.tituloLabel.text = livro?.title
+        self.categoriaLabel.text = livro?.category
+        self.autorLabel.text = livro?.author
+        self.isbnLabel.text = livro?.isbn
+        self.idiomaLabel.text = livro?.language
+        self.precoLabel.text = livro?.price
         //self. text = ""
         
         

@@ -23,6 +23,10 @@ class LivrosController {
     private var arrayLivros:[Book?] = []
     
     
+    func bookSelected(row: Int) -> Book? {
+        
+        return arrayLivros[row]
+    }
     
     func numberOfRowsInSection() -> Int {
         
