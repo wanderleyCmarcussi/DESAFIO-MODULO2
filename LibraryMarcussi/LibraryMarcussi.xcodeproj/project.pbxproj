@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B0BB75622BFF6BE0006A4DA /* CadastraLivrosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0BB75522BFF6BE0006A4DA /* CadastraLivrosViewController.swift */; };
+		0B0BB75822C008A60006A4DA /* MostraLivrosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0BB75722C008A60006A4DA /* MostraLivrosViewController.swift */; };
 		0B76FD4422AF3D4500EA240E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B76FD4322AF3D4500EA240E /* AppDelegate.swift */; };
 		0B76FD4622AF3D4500EA240E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B76FD4522AF3D4500EA240E /* ViewController.swift */; };
 		0B76FD4922AF3D4500EA240E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B76FD4722AF3D4500EA240E /* Main.storyboard */; };
@@ -15,9 +17,17 @@
 		0B76FD5722AF3DA700EA240E /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B76FD5622AF3DA700EA240E /* Book.swift */; };
 		0B76FD5922AF442200EA240E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B76FD5822AF442200EA240E /* Category.swift */; };
 		0B76FD5C22AF477000EA240E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B76FD5B22AF477000EA240E /* WelcomeViewController.swift */; };
+		0BEB228222C9566B0031B5AF /* GerenciaLivros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEB228122C9566B0031B5AF /* GerenciaLivros.swift */; };
+		0BEB849422B6860E0035A5F2 /* Utilitarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEB849322B6860E0035A5F2 /* Utilitarios.swift */; };
+		0BEB849622B692CF0035A5F2 /* TabelaLivrosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEB849522B692CF0035A5F2 /* TabelaLivrosViewController.swift */; };
+		0BEB849D22B6A6540035A5F2 /* livrosDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEB849C22B6A6540035A5F2 /* livrosDAO.swift */; };
+		0BEB84A022B6A6760035A5F2 /* livros.json in Resources */ = {isa = PBXBuildFile; fileRef = 0BEB849F22B6A6760035A5F2 /* livros.json */; };
+		0BEB84A422B6D6CF0035A5F2 /* LivrosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEB84A322B6D6CF0035A5F2 /* LivrosController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B0BB75522BFF6BE0006A4DA /* CadastraLivrosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastraLivrosViewController.swift; sourceTree = "<group>"; };
+		0B0BB75722C008A60006A4DA /* MostraLivrosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostraLivrosViewController.swift; sourceTree = "<group>"; };
 		0B76FD4022AF3D4500EA240E /* LibraryMarcussi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibraryMarcussi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B76FD4322AF3D4500EA240E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B76FD4522AF3D4500EA240E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +38,12 @@
 		0B76FD5622AF3DA700EA240E /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		0B76FD5822AF442200EA240E /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		0B76FD5B22AF477000EA240E /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		0BEB228122C9566B0031B5AF /* GerenciaLivros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GerenciaLivros.swift; sourceTree = "<group>"; };
+		0BEB849322B6860E0035A5F2 /* Utilitarios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilitarios.swift; sourceTree = "<group>"; };
+		0BEB849522B692CF0035A5F2 /* TabelaLivrosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabelaLivrosViewController.swift; sourceTree = "<group>"; };
+		0BEB849C22B6A6540035A5F2 /* livrosDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = livrosDAO.swift; sourceTree = "<group>"; };
+		0BEB849F22B6A6760035A5F2 /* livros.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = livros.json; sourceTree = "<group>"; };
+		0BEB84A322B6D6CF0035A5F2 /* LivrosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivrosController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +60,9 @@
 		0B76FD3722AF3D4500EA240E = {
 			isa = PBXGroup;
 			children = (
+				0BEB84A222B6D69B0035A5F2 /* CONTROLLER */,
+				0BEB849E22B6A6660035A5F2 /* MOCK */,
+				0BEB849B22B6A6490035A5F2 /* DAO */,
 				0B76FD4222AF3D4500EA240E /* LibraryMarcussi */,
 				0B76FD4122AF3D4500EA240E /* Products */,
 			);
@@ -75,6 +94,8 @@
 		0B76FD5522AF3D7200EA240E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0BEB849322B6860E0035A5F2 /* Utilitarios.swift */,
+				0BEB228122C9566B0031B5AF /* GerenciaLivros.swift */,
 				0B76FD5622AF3DA700EA240E /* Book.swift */,
 				0B76FD5822AF442200EA240E /* Category.swift */,
 			);
@@ -85,8 +106,35 @@
 			isa = PBXGroup;
 			children = (
 				0B76FD5B22AF477000EA240E /* WelcomeViewController.swift */,
+				0BEB849522B692CF0035A5F2 /* TabelaLivrosViewController.swift */,
+				0B0BB75522BFF6BE0006A4DA /* CadastraLivrosViewController.swift */,
+				0B0BB75722C008A60006A4DA /* MostraLivrosViewController.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		0BEB849B22B6A6490035A5F2 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				0BEB849C22B6A6540035A5F2 /* livrosDAO.swift */,
+			);
+			path = DAO;
+			sourceTree = "<group>";
+		};
+		0BEB849E22B6A6660035A5F2 /* MOCK */ = {
+			isa = PBXGroup;
+			children = (
+				0BEB849F22B6A6760035A5F2 /* livros.json */,
+			);
+			path = MOCK;
+			sourceTree = "<group>";
+		};
+		0BEB84A222B6D69B0035A5F2 /* CONTROLLER */ = {
+			isa = PBXGroup;
+			children = (
+				0BEB84A322B6D6CF0035A5F2 /* LivrosController.swift */,
+			);
+			path = CONTROLLER;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B76FD4E22AF3D4600EA240E /* LaunchScreen.storyboard in Resources */,
+				0BEB84A022B6A6760035A5F2 /* livros.json in Resources */,
 				0B76FD4B22AF3D4600EA240E /* Assets.xcassets in Resources */,
 				0B76FD4922AF3D4500EA240E /* Main.storyboard in Resources */,
 			);
@@ -161,8 +210,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B76FD4622AF3D4500EA240E /* ViewController.swift in Sources */,
+				0BEB849422B6860E0035A5F2 /* Utilitarios.swift in Sources */,
 				0B76FD5C22AF477000EA240E /* WelcomeViewController.swift in Sources */,
+				0BEB849622B692CF0035A5F2 /* TabelaLivrosViewController.swift in Sources */,
+				0BEB228222C9566B0031B5AF /* GerenciaLivros.swift in Sources */,
 				0B76FD4422AF3D4500EA240E /* AppDelegate.swift in Sources */,
+				0BEB849D22B6A6540035A5F2 /* livrosDAO.swift in Sources */,
+				0B0BB75622BFF6BE0006A4DA /* CadastraLivrosViewController.swift in Sources */,
+				0BEB84A422B6D6CF0035A5F2 /* LivrosController.swift in Sources */,
+				0B0BB75822C008A60006A4DA /* MostraLivrosViewController.swift in Sources */,
 				0B76FD5722AF3DA700EA240E /* Book.swift in Sources */,
 				0B76FD5922AF442200EA240E /* Category.swift in Sources */,
 			);
@@ -313,13 +369,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QMW2CKCGRT;
 				INFOPLIST_FILE = LibraryMarcussi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = WMarcussi.LibraryMarcussi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -331,13 +388,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QMW2CKCGRT;
 				INFOPLIST_FILE = LibraryMarcussi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = WMarcussi.LibraryMarcussi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
